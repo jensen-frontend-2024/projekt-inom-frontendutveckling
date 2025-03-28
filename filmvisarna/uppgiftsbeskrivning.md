@@ -23,8 +23,6 @@ Applikationen ska vara en **single page application** byggd med React och en bac
 - Komponentbaserad arkitektur
 - Dynamisk rendering av salongsplatser vid bokning
 - Context API vid behov
-- Hämta filminformation (titel, längd, poster, trailer m.m.) från [OMDb API](https://www.omdbapi.com/).  
-  Filminformation kan hämtas via API-anrop och sparas manuellt i databasen, eller automatiseras med ett eget script.
 
 > 📦 OMDb API kräver en **gratis API-nyckel** – det är varje grupps ansvar att registrera en nyckel och hantera den på ett säkert sätt.
 
@@ -32,12 +30,14 @@ Applikationen ska vara en **single page application** byggd med React och en bac
 
 - Express.js
 - Databas: [SQLite](https://www.sqlitetutorial.net/) med npm-paketet [better-sqlite3](https://www.npmjs.com/package/better-sqlite3)
+- Hämta filminformation (titel, längd, poster, trailer m.m.) från [OMDb API](https://www.omdbapi.com/).  
+  Filminformation kan hämtas via API-anrop och sparas manuellt i databasen, eller automatiseras med ett eget script.
 
 **Gemensamt:**
 
 - Git ska användas med feature branches
 - Projektet ska innehålla en README.md som beskriver projektet, använd teknik, API:er och installationsinstruktioner
-- Applikationen ska vara en SPA – **inga hårda sidladdningar får förekomma**
+- Applikationen ska vara en SPA _(Single Page Application)_ – **inga hårda sidladdningar får förekomma**
 
 ## 🧑‍💻 Funktionella krav (User Stories)
 
@@ -56,12 +56,14 @@ Nedan följer exempel på user stories. Ni kan lägga till fler i samråd med pr
 - Som systemägare vill jag kunna skapa, läsa och ta bort filmer i databasen
 - Som systemägare vill jag kunna lägga till visningar i backend
 
+Biografensidan bör visa minst fem filmer fördelade på tre visningar under en fyra veckors period över minst två biografsalonger.
+
 ## 🔄 Arbetssätt & Scrum
 
 - Ni arbetar i Scrum-team och genomför **3 sprinter**
 - Ni planerar en sprint i taget med pokerplanering
 - Ni håller dagliga standups och retrospektiv efter varje sprint
-- Ni använder Trello eller liknande verktyg som Scrum-board
+- Ni använder [Trello](https://trello.com) eller liknande verktyg som Scrum-board
 - Ni arbetar med feature branches i Git och genomför kodgranskningar regelbundet
 - Ni samarbetar aktivt i grupp och **loggar er arbetsinsats** (se avsnitt nedan)
 

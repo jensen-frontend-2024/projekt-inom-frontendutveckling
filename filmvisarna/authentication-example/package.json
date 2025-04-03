@@ -1,0 +1,19 @@
+{
+  "name": "encryption-example",
+  "version": "1.0.0",
+  "main": "encryption-example.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "better-sqlite3-session-store": "^0.1.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1"
+  }
+}

@@ -56,3 +56,5 @@ Sailboat (eller Speedboat) är en modell där teamet visualiserar sig som en bå
 
 7. **Bjud in Niklas**  
    Skicka en inbjudan till retrospektivet eller dela tavlan så att Niklas kan bekräfta att ni genomfört ett retrospektiv och skapat actions inför nästa sprint.
+
+   ![Sailbot](https://java19l.lms.nodehill.se/uploads/images/2023-09-27T12-12-15/SailboatRetro_avsek2_copy.jpg)

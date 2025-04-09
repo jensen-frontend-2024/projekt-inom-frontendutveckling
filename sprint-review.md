@@ -1,5 +1,3 @@
-![Sailbot](https://java19l.lms.nodehill.se/uploads/images/2023-09-27T12-12-15/SailboatRetro_avsek2_copy.jpg)
-
 ## 🌀 **Sprint Review – Guide & Checklista**
 
 **Syfte:** Visa vad teamet åstadkommit under sprinten, reflektera kring arbetet och få feedback från produktägare och intressenter.
